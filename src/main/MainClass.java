@@ -8,7 +8,6 @@ public class MainClass {
 		
 		Scanner scan = new Scanner(System.in);
 		
-		
 		while(true) {
 			System.out.println("1. 회원 기능");
 			System.out.println("2. 이벤트 기능");
