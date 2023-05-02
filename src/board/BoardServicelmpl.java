@@ -12,4 +12,9 @@ public class BoardServicelmpl implements BoardService {
 		System.out.println("게시물을 확인합니다.");	
 	}
 
+	@Override
+	public void bEdit() {
+		System.out.println("게시물을 수정합니다.");
+	}
+
 }
