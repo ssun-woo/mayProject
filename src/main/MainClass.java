@@ -2,11 +2,14 @@ package main;
 
 import java.util.Scanner;
 
+import board.BoardServicelmpl;
+
 public class MainClass {
 
 	public static void main(String[] args) {
 		
 		Scanner scan = new Scanner(System.in);
+		BoardServicelmpl bd = new BoardServicelmpl();
 		
 		while(true) {
 			System.out.println("1. 회원 기능");
@@ -28,6 +31,8 @@ public class MainClass {
 				break;
 			case 4 :
 				System.out.println("게시글 기능");
+				bd.bWrite();
+				bd.bWrite();
 				break;
 			default :
 				System.out.println("잘못된 입력입니다");
