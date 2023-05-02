@@ -2,11 +2,16 @@ package main;
 
 import java.util.Scanner;
 
+import event.EventService;
+import event.EventServiceImpl;
+
 public class MainClass {
 
 	public static void main(String[] args) {
 		
 		Scanner scan = new Scanner(System.in);
+		EventServiceImpl ev = new EventServiceImpl();
+		
 		
 		
 		while(true) {
@@ -23,6 +28,7 @@ public class MainClass {
 				break;
 			case 2 :
 				System.out.println("이벤트 기능");
+				ev.eView();
 				break;
 			case 3 :
 				System.out.println("구매 기능");
