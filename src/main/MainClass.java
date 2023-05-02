@@ -2,38 +2,27 @@ package main;
 
 import java.util.Scanner;
 
-<<<<<<< HEAD
+
 import member.MemberServiceImpl;
 import shopping.ShoppingService;
 import shopping.ShoppingServiceimpl;
 import board.BoardServicelmpl;
-=======
 import event.EventService;
 import event.EventServiceImpl;
->>>>>>> hyeonuk
 
 public class MainClass {
 
 	public static void main(String[] args) {
 
 		Scanner scan = new Scanner(System.in);
-<<<<<<< HEAD
 		ShoppingService ss = new ShoppingServiceimpl();
-
         MemberServiceImpl mb = new MemberServiceImpl();
-
-
 		BoardServicelmpl bd = new BoardServicelmpl();
-
-
-		while (true) {
-=======
 		EventServiceImpl ev = new EventServiceImpl();
 		
 		
 		
 		while(true) {
->>>>>>> hyeonuk
 			System.out.println("1. 회원 기능");
 			System.out.println("2. 이벤트 기능");
 			System.out.println("3. 구매 기능");
