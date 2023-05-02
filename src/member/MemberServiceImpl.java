@@ -9,13 +9,13 @@ public class MemberServiceImpl implements MemberService {
 	  
 	    public void addMember(String name, String email, String password) {
 	       System.out.println(name+email+password);
+	       
 	    }
 
 
 		
 		public void showMemberCount() {
-			// TODO Auto-generated method stub
-			
+			System.out.println("가입한 회원수가 보여지는 기능입니다.");
 		}
 
 
