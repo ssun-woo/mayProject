@@ -40,6 +40,7 @@ public class MainClass {
 			case 2:
 				System.out.println("이벤트 기능");
 				ev.eView();
+				ev.allEvent();
 				break;
 			case 3:
 				System.out.println("구매 기능");
