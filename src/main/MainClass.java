@@ -2,13 +2,11 @@ package main;
 
 import java.util.Scanner;
 
-
+import board.BoardServicelmpl;
+import event.EventServiceImpl;
 import member.MemberServiceImpl;
 import shopping.ShoppingService;
 import shopping.ShoppingServiceimpl;
-import board.BoardServicelmpl;
-import event.EventService;
-import event.EventServiceImpl;
 
 public class MainClass {
 
@@ -43,7 +41,17 @@ public class MainClass {
 				break;
 			case 3:
 				System.out.println("구매 기능");
-				ss.buy();
+				
+				System.out.println("1.구매하기 2.구매목록보기");
+				int choice2 = scan.nextInt();
+				
+				if(choice2 == 1) {
+					ss.buy();
+				}else if(choice2 == 2) {
+					ss.buyList();
+				}
+				
+				
 				break;
 			case 4:
 				System.out.println("게시글 기능");
