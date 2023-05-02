@@ -49,6 +49,7 @@ public class MainClass {
 				System.out.println("게시글 기능");
 				bd.bWrite();
 				bd.bWrite();
+				bd.bEdit();
 				break;
 			default:
 				System.out.println("잘못된 입력입니다");
