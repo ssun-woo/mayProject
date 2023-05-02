@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 import shopping.ShoppingService;
 import shopping.ShoppingServiceimpl;
+import board.BoardServicelmpl;
 
 public class MainClass {
 
@@ -11,6 +12,8 @@ public class MainClass {
 
 		Scanner scan = new Scanner(System.in);
 		ShoppingService ss = new ShoppingServiceimpl();
+
+		BoardServicelmpl bd = new BoardServicelmpl();
 
 		while (true) {
 			System.out.println("1. 회원 기능");
@@ -33,6 +36,8 @@ public class MainClass {
 				break;
 			case 4:
 				System.out.println("게시글 기능");
+				bd.bWrite();
+				bd.bWrite();
 				break;
 			default:
 				System.out.println("잘못된 입력입니다");
