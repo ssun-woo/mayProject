@@ -48,7 +48,7 @@ public class MainClass {
 			case 4:
 				System.out.println("게시글 기능");
 				bd.bWrite();
-				bd.bWrite();
+				bd.bVeiw();
 				bd.bEdit();
 				break;
 			default:
