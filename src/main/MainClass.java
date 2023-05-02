@@ -32,6 +32,7 @@ public class MainClass {
 			case 1:
 				System.out.println("회원 기능");
 				mb.addMember("홍길동", "hgd@naver.com", "1234");
+				mb.showMemberCount();
 		
 				break;
 			case 2:
